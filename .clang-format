@@ -1,0 +1,8 @@
+---
+Language: Cpp
+BasedOnStyle: WebKit
+BreakBeforeBraces: Custom
+BraceWrapping:
+    BeforeElse: true
+AlignAfterOpenBracket: BlockIndent
+...
