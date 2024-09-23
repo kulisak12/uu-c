@@ -1,4 +1,4 @@
 C_FLAGS := -g -Wall
 
-%.bin: %.c
-	gcc $(C_FLAGS) -o $@ $<
+%.bin: %.c lib.c lib.h
+	gcc $(C_FLAGS) -o $@ $< lib.c
